@@ -41,7 +41,7 @@ async function start() {
   try {
     const res = await dbConnection.execute("SELECT 'test'");
     app.listen(port, () => {
-      console.log(`✅ Server is running on https://evangadiforum.be.selamkidane.com.selamkidane.com`);
+      console.log(`✅ Server is running on https://evangadi-be.evenezertadesse.com`);
     });
     console.log('✅ Successfully connected to MySQL Database');
   } catch (error) {
