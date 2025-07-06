@@ -6,9 +6,9 @@ import QuestionPage from './pages/Questionpage/Questionpage';
 import AnswerPage from './pages/Answer/AnswerPage';
 import Howitworks from './pages/Howitworks/Howitworks';
 import Auth from './pages/Auth/Auth';
-import Four04 from './Pages/Four04/Four04';
+import Four04 from './pages/Four04/Four04';
 import Loader from './Components/Loader/Loader';
-import ResetPassword from './Pages/ResetPassword/ResetPassword';
+import ResetPassword from './pages/ResetPassword/ResetPassword';
 
 function Router() {
   const [{ user }] = useContext(AuthContext);
