@@ -45,7 +45,7 @@ async function start() {
         `✅ Server is running on https://evangadi-be.evenezertadesse.com`
       );
     });
-    console.log("✅ Successfully connected to MySQL Database");
+    console.log("✅ Successfully connected to postgresql Database");
   } catch (error) {
     console.error("❌ Error setting up the server:", error);
   }
